@@ -12,10 +12,10 @@ class UserManager(models.Manager):
 
 		users_in_courses.userManager.create(User_in_Course=course, User_in_login=student)
 
-	def sums(self):
+	# def sums(self):
 		
-		for student in course:
-			print student.course
+	# 	for x in User_in_Course[course_name]:
+	# 		print x.
 
 class users_in_courses(models.Model):
 	# Class = models.CharField(max_length=50)
